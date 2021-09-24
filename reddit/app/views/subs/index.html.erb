@@ -1,0 +1,8 @@
+<h1>All Sub-forms</h1>
+
+<ul>
+    <% @subs.each do |sub| %>
+        <li>Title: <%= sub.title %></li>
+        <li>Description: <%= sub.description %></li>
+    <% end %>
+</ul>
